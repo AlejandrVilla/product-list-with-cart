@@ -1,0 +1,91 @@
+@import "../scss/base.scss";
+
+.cart-list{
+    width: 400px;
+    min-height: 300px;
+    max-height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    overflow: auto;
+    background-color: $Rose50;
+    border-radius: 10px;
+    position: fixed;
+    right: 4%;
+}
+
+.cart-title{
+    align-self: flex-start;
+    color: $red;
+    margin: 30px 0 15px 20px;
+    font-weight: $font-weight-h1;
+}
+
+.cart-total-order{
+    width: 320px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 25px 0 25px 0;
+}
+
+.cart-total{
+    color: $Rose900;
+    font-weight: $font-weight-h1;
+}
+
+.neutral-div{
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    background-color: $Rose100;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 5px;
+    margin: 0 0 25px 0;
+}
+
+.neutral-svg{
+    width: 30px;
+    height: 30px;
+}
+
+.cart-button{
+    width: 320px;
+    height: 45px;
+    border-radius: 30px;
+    background-color: $red;
+    color: $Rose50;
+    margin: 0 0 30px 0;
+    cursor: pointer;
+}
+
+.cart-button:hover{
+    background-color: $Rose900;
+}
+
+.empty-svg{
+    width: 150px;
+    height: 150px;
+}
+
+.cart-default{
+    color: $Rose500;
+    font-weight: $font-weight-h2;
+    margin: 0 0 40px 0;
+}
+
+@media(width <= 800px){
+    .cart-list{
+        width: 300px;
+        position: inherit;
+    }
+    .cart-total-order{
+        width: 250px;
+    }
+    .cart-button{
+        width: 250px;
+    }
+}

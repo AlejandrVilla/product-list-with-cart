@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap');
+
+$font-primary: "Red Hat Text", sans-serif;
+
+$font-size-t: 14px;
+$font-size-h1: 32px;
+$font-size-h2: 30px;
+$font-size-h3: 24px;
+$font-size-h4: 16px;
+
+$font-weight-t: 400;
+$font-weight-h1: 700;
+$font-weight-h2: 600;
+
+p, h1, h2, h3, h4{
+    margin: 0;
+}
+
+p{
+    font-size: $font-size-t;
+    font-weight: $font-weight-t;
+}
+
+h1{
+    font-size: $font-size-h1;
+    font-weight: $font-weight-h1;
+}
+
+h2{
+    font-size: $font-size-h2;
+    font-weight: $font-weight-h2;
+}
+
+h3{
+    font-size: $font-size-h3;
+    font-weight: $font-weight-h2;
+}
+
+h4{
+    font-size: $font-size-h4;
+    font-weight: $font-weight-h2;
+}

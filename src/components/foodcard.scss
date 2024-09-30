@@ -1,0 +1,107 @@
+@import "../scss/base.scss";
+
+.food-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 20px 0;
+}
+
+.image-div{
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.image-div:hover{
+    border: 3px solid $red;
+}
+
+.image{
+    height: 300px;
+}
+
+.add-div{
+    align-self: center;
+    width: 200px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: $Rose50;
+    border: 1px solid $Rose300;
+    padding: 0 35px 0 35px;
+    border-radius: 30px;
+    cursor: pointer;
+    position: relative;
+    top: -6%;
+}
+
+.add-div:hover{
+    border: 1px solid $red;
+    color: $red;
+}
+
+.add-div-active{
+    align-self: center;
+    color: $Rose50;
+    width: 200px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid $Rose300;
+    padding: 0 20px 0 20px;
+    border-radius: 30px;
+    background-color: $red;
+    position: relative;
+    top: -6%;
+}
+
+.add-to-cart-svg{
+    width: 24px;
+    height: 24px;
+}
+
+.card-button{
+    width: 24px;
+    height: 24px;
+    border: 1px solid $Rose50;
+    border-radius: 50%;
+    padding: 5px;
+    cursor: pointer;
+    fill: $Rose50;
+}
+
+.card-button:hover{
+    background-color: $Rose50;
+    fill: $red;
+    border: 1px solid $red;
+}
+
+.card-content{
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.card-name{
+    color: $Rose900;
+}
+
+.card-category{
+    color: $Rose300;
+}
+
+.card-price{
+    color: $red;
+}

@@ -1,0 +1,25 @@
+@import "./scss/base.scss";
+
+.app{
+    padding: 50px 50px 50px 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.content-title{
+    margin: 0 0 30px 15px;
+}
+
+.food-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+@media(width <= 800px){
+    .app{
+        flex-direction: column;
+        align-items: center;
+    }
+}

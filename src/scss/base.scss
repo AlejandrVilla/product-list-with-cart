@@ -1,0 +1,13 @@
+@import "./variables/colors.scss";
+@import "./variables/layout.scss";
+@import "./variables/typography.scss";
+
+*{
+  box-sizing: border-box;
+  font-family: $font-primary;
+  font-optical-sizing: auto;
+}
+
+body {
+  margin: 0;
+}

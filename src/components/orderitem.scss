@@ -1,0 +1,62 @@
+@import "../scss/base.scss";
+
+.order-item{
+    width: 450px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15px 0 15px 0;
+    padding: 0 20px 0 20px;
+    border-radius: 5px;
+}
+
+.order-hr{
+    width: 410px;
+    border: 1px solid #e2d4d4;
+}
+
+.order-div-image{
+    width: 45px;
+    height: 45px;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.order-image{
+    height: 45px;
+}
+
+.order-content-card{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.order-category{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 10px 0 10px;
+}
+
+.order-cost{
+    width: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media(width <= 800px){
+    .order-item{
+        width: 250px;
+    }
+    .order-hr{
+        width: 250px;
+    }
+    .order-cost{
+        width: 80px;
+    }
+}

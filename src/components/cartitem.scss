@@ -1,0 +1,73 @@
+@import "../scss/base.scss";
+
+.cart-item{
+    width: 330px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15px 0 15px 0;
+}
+
+.cart-hr{
+    width: 330px;
+    border: 1px solid $Rose100;
+}
+
+.cart-name{
+    color: $Rose900;
+    font-weight: $font-weight-h2;
+}
+
+.cart-category{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.cart-cost{
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0 10px 0;
+}
+
+.cart-quantity{
+    color: $red;
+    font-weight: $font-weight-h1;
+}
+
+.cart-price{
+    color: $Rose400;
+}
+
+.cart-subtotal{
+    color: $Rose500;
+    font-weight: $font-weight-h2;
+}
+
+.remove-button{
+    width: 20px;
+    height: 20px;
+    padding: 3px;
+    fill: $Rose300;
+    border: 1px solid $Rose300;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.remove-button:hover{
+    fill: $Rose900;
+    border: 1px solid $Rose900;
+}
+
+@media(width <= 800px){
+    .cart-item{
+        width: 250px;
+    }
+    .cart-hr{
+        width: 250px;
+    }
+}
