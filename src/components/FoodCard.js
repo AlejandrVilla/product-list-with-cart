@@ -44,11 +44,6 @@ function FoodCard( props ){
                         alt="item" 
                         className="image"
                     />
-                    {/* <img 
-                        className="image" 
-                        src={props.item.getImage().desktop} 
-                        alt="food"
-                    ></img> */}
                 </div>
                 {
                     (quantity === 0)? (
