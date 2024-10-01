@@ -2,7 +2,7 @@
   "name": "product_list_with_cart",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://AlejandrVilla.github.io/product-list-with-cart",
+  "homepage": "https://alejandrvilla.github.io/product-list-with-cart",
   "dependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.18.6",
     "@testing-library/jest-dom": "^5.17.0",
